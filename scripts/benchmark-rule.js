@@ -81,8 +81,8 @@ function benchFn(css, done) {
 
 			done();
 		})
-		.catch((err) => {
-			console.log(err.stack);
+		.catch((error) => {
+			console.log(error.stack);
 			done();
 		});
 }
